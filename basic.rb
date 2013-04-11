@@ -1,5 +1,3 @@
-
-
 gem 'exception_notification', :git => 'git@github.com:darbyfrey/exception_notification.git'
 gem 'httparty'
 
