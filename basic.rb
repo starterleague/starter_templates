@@ -2,7 +2,7 @@ gem 'exception_notification', :git => 'git@github.com:darbyfrey/exception_notifi
 gem 'beacon_client', :git => '/Users/darby/projects/starterleague/beacon_client'
 gem 'starter_generators'
 
-inject_into_file 'config/environments/development.rb', :before => "end" do
+inject_into_file 'config/environments/development.rb', :after => "config.assets.debug = true" do
   <<-eos
 
   # ExceptionNotifier gem configuration
