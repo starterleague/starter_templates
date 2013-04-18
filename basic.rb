@@ -1,5 +1,5 @@
 gem 'exception_notification', :git => 'git://github.com/darbyfrey/exception_notification.git'
-gem 'beacon_client', :git => 'git://github.com/starterleague/beacon_client.git'
+#gem 'beacon_client', :git => 'git://github.com/starterleague/beacon_client.git'
 gem 'starter_generators'
 gem 'httparty'
 
